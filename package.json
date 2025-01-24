@@ -87,3 +87,12 @@
 		"node": ">=18"
 	}
 }
+{
+  "packageManager": "pnpm@8.15.4",  // Replace with your pnpm version
+  "engines": {
+    "pnpm": "8.15.4"  // Match the version above
+  },
+  "scripts": {
+    "preinstall": "npx corepack enable"  // Add this line
+  }
+}
